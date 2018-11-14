@@ -28,7 +28,7 @@ def externalCommand(command, communicate=True):
         return proc.communicate()
     return proc
 
-GIST = 'https://gist.githubusercontent.com/fixy/9793a4f1b0f0ecff94efd179c27c4119/raw/ed0982f2e52543765d213bffd63911f98c9d966a/SC18%2520FDT%2520Datanodes'
+GIST = 'https://gist.githubusercontent.com/fixy/9793a4f1b0f0ecff94efd179c27c4119/raw/SC18%2520FDT%2520Datanodes'
 
 def executeCmd(command, logger):
     """ Execute interfaces commands. """
